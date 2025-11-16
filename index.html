@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colosseum Paintball Arena - Loje Argetuese Mes Shoqnis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>COLOSSEUM</h2>
+                    <span>Paintball Arena</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Shtëpia</a></li>
+                    <li><a href="#about">Rreth Nesh</a></li>
+                    <li><a href="#services">Paketa</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#booking">Rezervo</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">COLOSSEUM PAINTBALL ARENA</h1>
+            <p class="hero-subtitle">Eksperiencë e paharrueshme me miqtë tuaj</p>
+            <a href="#booking" class="btn btn-primary">Rezervo Tani</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Rreth Nesh</h2>
+                <p>Eksperiencë unike në botën e paintball</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Mirë se vini në Colosseum Paintball Arena</h3>
+                    <p>Colosseum Paintball Arena është destinacioni më i mirë për lojëra argetuese dhe aventura me miqtë tuaj. Ne ofrojmë një mjedis të sigurt dhe eksitues ku mund të shijoni luftën më të mirë të paintball.</p>
+                    <p>Me terren të modernizuar dhe pajisje profesionale, garantojmë një eksperiencë të paharrueshme për të gjithë pjesëmarrësit. Pavarësisht nëse jeni fillestar ose profesionist, kemi diçka për të gjithë.</p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <div class="feature-icon">🎯</div>
+                            <h4>Terren Profesional</h4>
+                            <p>Terren i modernizuar me barrikada dhe struktura strategjike</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🛡️</div>
+                            <h4>Siguri Maksimale</h4>
+                            <p>Pajisje mbrojtjeje profesionale dhe instruktorë të certifikuar</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">⚡</div>
+                            <h4>Eksperiencë Eksituese</h4>
+                            <p>Loje të ndryshme dhe skenarë për të gjitha nivelet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Paketat Tona</h2>
+                <p>Zgjidhni paketën që ju përshtatet më mirë</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🥷</div>
+                    <h3>Paketa Fillestare</h3>
+                    <ul class="service-features">
+                        <li>30 minuta lojë</li>
+                        <li>200 topa paintball</li>
+                        <li>Pajisje mbrojtjeje</li>
+                        <li>Instruktor për fillestarë</li>
+                    </ul>
+                    <div class="service-price">15€</div>
+                    <a href="#booking" class="btn btn-secondary">Rezervo</a>
+                </div>
+                <div class="service-card featured">
+                    <div class="badge">Më Popullore</div>
+                    <div class="service-icon">⚔️</div>
+                    <h3>Paketa Standard</h3>
+                    <ul class="service-features">
+                        <li>60 minuta lojë</li>
+                        <li>500 topa paintball</li>
+                        <li>Pajisje mbrojtjeje profesionale</li>
+                        <li>Instruktor personal</li>
+                        <li>Foto dhe video</li>
+                    </ul>
+                    <div class="service-price">35€</div>
+                    <a href="#booking" class="btn btn-primary">Rezervo</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👑</div>
+                    <h3>Paketa Premium</h3>
+                    <ul class="service-features">
+                        <li>120 minuta lojë</li>
+                        <li>1000 topa paintball</li>
+                        <li>Pajisje mbrojtjeje premium</li>
+                        <li>Instruktor personal</li>
+                        <li>Foto dhe video profesionale</li>
+                        <li>Ushqim dhe pije</li>
+                    </ul>
+                    <div class="service-price">65€</div>
+                    <a href="#booking" class="btn btn-secondary">Rezervo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galeria</h2>
+                <p>Shikoni momentet më të bukura nga terreni ynë</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="1.jpg" alt="Paintball Arena">
+                    <div class="gallery-overlay">
+                        <span>Terren Profesional</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="2.jpg" alt="Paintball Game">
+                    <div class="gallery-overlay">
+                        <span>Aksion i Vërtetë</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="3.jpg" alt="Paintball Team">
+                    <div class="gallery-overlay">
+                        <span>Ekip i Fortë</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="4.jpg" alt="Paintball Action">
+                    <div class="gallery-overlay">
+                        <span>Adrenalinë Maksimale</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2>Rezervo Tani</h2>
+                <p>Zgjidhni datën dhe kohën tuaj të preferuar</p>
+            </div>
+            <div class="booking-wrapper">
+                <div class="booking-form-container">
+                    <form id="bookingForm" class="booking-form">
+                        <div class="form-group">
+                            <label for="name">Emri dhe Mbiemri</label>
+                            <input type="text" id="name" name="name" required placeholder="Shkruani emrin tuaj">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefoni</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+355 XX XXX XXXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="package">Paketa</label>
+                            <select id="package" name="package" required>
+                                <option value="">Zgjidhni paketën</option>
+                                <option value="fillestare">Paketa Fillestare - 15€</option>
+                                <option value="standard">Paketa Standard - 35€</option>
+                                <option value="premium">Paketa Premium - 65€</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Data</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Koha</label>
+                            <select id="time" name="time" required>
+                                <option value="">Zgjidhni kohën</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                                <option value="18:00">18:00</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="participants">Numri i Pjesëmarrësve</label>
+                            <input type="number" id="participants" name="participants" min="2" max="20" required placeholder="2-20 persona">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mesazh (Opsionale)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Shkruani mesazhin tuaj këtu..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Konfirmo Rezervimin</button>
+                    </form>
+                </div>
+                <!-- Confirmation Modal -->
+                <div id="confirmationModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-modal">&times;</span>
+                        <h2>Rezervimi u Konfirmua!</h2>
+                        <div class="confirmation-details">
+                            <p><strong>Emri:</strong> <span id="confirmName"></span></p>
+                            <p><strong>Email:</strong> <span id="confirmEmail"></span></p>
+                            <p><strong>Telefoni:</strong> <span id="confirmPhone"></span></p>
+                            <p><strong>Paketa:</strong> <span id="confirmPackage"></span></p>
+                            <p><strong>Data:</strong> <span id="confirmDate" class="highlight-red"></span></p>
+                            <p><strong>Ora:</strong> <span id="confirmTime" class="highlight-red"></span></p>
+                            <p><strong>Pjesëmarrës:</strong> <span id="confirmParticipants"></span></p>
+                        </div>
+                        <p class="success-message">Rezervimi juaj është dërguar me sukses! Do të merrni një email konfirmimi në <strong>drilonrexhaja6@gmail.com</strong></p>
+                        <button class="btn btn-primary" onclick="closeModal()">Mbyll</button>
+                    </div>
+                </div>
+                <div class="booking-info">
+                    <h3>Informacione të Rëndësishme</h3>
+                    <div class="info-item">
+                        <h4>🕐 Orari</h4>
+                        <p>E Hënë - E Dielë: 09:00 - 19:00</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📍 Lokacioni</h4>
+                        <p>Tiranë, Shqipëri</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📞 Kontakt</h4>
+                        <p>Tel: +355 XX XXX XXXX</p>
+                        <p>Email: info@colosseumpaintball.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>⚠️ Kujdes</h4>
+                        <p>Ju lutemi rezervoni të paktën 24 orë para kohe. Rezervimet mund të anulohen deri në 48 orë para kohe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kontakti</h2>
+                <p>Na kontaktoni për çdo pyetje ose informacion</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <h4>Adresa</h4>
+                        <p>Tiranë, Shqipëri</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <h4>Telefoni</h4>
+                        <p>+355 XX XXX XXXX</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <h4>Email</h4>
+                        <p>info@colosseumpaintball.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <h4>Orari</h4>
+                        <p>E Hënë - E Dielë: 09:00 - 19:00</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="contactName" name="name" required placeholder="Emri juaj">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" name="email" required placeholder="Email juaj">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="contactSubject" name="subject" required placeholder="Subjekti">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" name="message" rows="6" required placeholder="Mesazhi juaj"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Dërgo Mesazhin</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>COLOSSEUM</h3>
+                    <p>Paintball Arena</p>
+                    <p>Eksperiencë e paharrueshme me miqtë tuaj</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Linqe të Shpejta</h4>
+                    <ul>
+                        <li><a href="#home">Shtëpia</a></li>
+                        <li><a href="#about">Rreth Nesh</a></li>
+                        <li><a href="#services">Paketa</a></li>
+                        <li><a href="#booking">Rezervo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>📞 +355 XX XXX XXXX</p>
+                    <p>✉️ info@colosseumpaintball.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Na Ndiqni</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Colosseum Paintball Arena. Të gjitha të drejtat e rezervuara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
