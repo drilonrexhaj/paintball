@@ -143,7 +143,7 @@ if (bookingForm) {
                             'Accept': 'application/json'
                         },
                         body: JSON.stringify({
-                            access_key: '9d8e421e-4174-4d24-a151-52bb37450f75', // Get free key from web3forms.com - See EMAIL_SETUP.md
+                            access_key: 'eff94d71-16be-46aa-9b7f-02949042ac4a', // Get free key from web3forms.com - See EMAIL_SETUP.md
                             subject: `Rezervim i ri - Colosseum Paintball Arena`,
                             from_name: formData.name,
                             from_email: formData.email,
